@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugin bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+         position: relative; 
+        }
+        #home {padding-top:20px;height:300px;color: #fff; background-color: #b207b2;}
+        #menu {padding-top:20px;height:300px;color: #f8f3f3; background-color: #4104ab;}
+        #aboutus {padding-top:20px;height:300px;color: #fff; background-color: #ae6f10;}
+        #contact1 {padding-top:20px;height:300px;color: #fff; background-color: #077381;}
+        #contact2 {padding-top:20px;height:300px;color: #fff; background-color: #04877a;}
+    </style>
+</head>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--Scrollspy Plugin-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">RADHAKRISHNA</a>
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#contact1">CONTACT-1</a></li>
+                    <li><a href="#contact2">CONTACT-2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>    
+      
+      <div id="home" class="container-fluid">
+        <h1>HOME</h1>
+        <p>Welcome to our Page.</p>
+        <p>Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.</p>
+      </div>
+      <div id="menu" class="container-fluid">
+        <h1>MENU</h1>
+        <p>RADHA KRISHNA</p>
+        <p>This is one of the mythological shows that truly captured my heart! It is so beautiful and every time i watch it i feel at peace. Being a student, our days are filled with stress and workload but watching this show helps me ease my mind. It is just so beautiful! </p>
+      </div>
+      <div id="aboutus" class="container-fluid">
+        <h1>ABOUT US</h1>
+        <p>RADHE RADHE</p>
+        <p>The story of Radha and Krishna was popularised by the 12th-century Sanskrit poem, Gita Govinda, written by the Brahmin Jayadeva Goswani, the former court poet of Shri Lakshmana Sena, the king of Bengal.</p>
+      </div>
+      <div id="contact1" class="container-fluid">
+        <h1>CONTACT</h1>
+        <p>Contact Us Through Below Given Number</p>
+        <p>Number: 9898134573 or 992547296</p>
+      </div>
+      <div id="contact2" class="container-fluid">
+        <h1>CONTACT US</h1>
+        <p>Contact us through message</p>
+        <p>you can send a message thourgh message on instagram also.</p>
+      </div>
+      
+    
+</body>
+</html>
